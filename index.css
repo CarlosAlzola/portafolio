@@ -1,0 +1,196 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: black; 
+}
+ul{list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 4pc;
+	margin-left: 4pc;
+}
+
+.interes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1pc;
+}
+
+span#yaya {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+
+li {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+span {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+	
+}
+
+#fa{
+	content: none;
+}
+
+p{
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+}
+
+h1.h1, h2, h3{
+    color: #fff;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #650909;
+}
+
+.section-2 {
+	background-color: #3d0505;
+}
+
+.section-3 {
+	background-color: #2e0e0e;
+}
+
+
+a.nav-item {
+	color: #dfdfdf;
+	margin: -10px;
+}
+
+.sobremi{
+	background-color: #480808;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+audio, embed, img, object,video {
+    max-width: 100%;
+    margin: 10px;
+    margin-bottom: 1rem;
+	height: revert;
+	
+}
+
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(79, 7, 7, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+	
+	
+
+}
+
+@media screen and (max-width:425px) {
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 0;
+		margin-left: 0;
+	}
+
+	
+
+	li {
+		gap: 0;
+	}
+
+	
+	.interes {
+		gap: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+}
